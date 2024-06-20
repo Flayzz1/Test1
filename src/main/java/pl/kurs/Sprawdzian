@@ -1,0 +1,28 @@
+Zadanie 01:
+napisz metode boolean isArithmetic(int[] sequence), ktora zwroci informacje o tym czy dany
+jako argument ciag jest arytmetyczny czy nie.
+
+Zadanie 02:
+napisz metode String getSequenceName(int[] sequence) ktora zwroci:
+- GEOMETRYCZNY - jesli podany ciag jest geometryczny
+- ARYTMETYCZNY - jesli podany ciag jest arytmetyczny
+- INNY - w przypadku gdy zadne z powyzszych
+
+Zadanie 03:
+napisz metodę int[] superPrimes(int from, int to) ktora zwroci wszystkie liczby super-pierwsze z zakresu <from, to>
+także liczbą jest np: 11, dlaczego? Bo liczba super pierwsza to taka która sama jest liczbą pierwszą oraz jej suma cyfr
+też jest liczbą pierwszą. (a liczba pierwsza to taka ktora ma dokładnie dwa dzielniki, nie wiecej, nie mniej)
+
+Zadanie 04:
+dany jest plik liczby.txt
+w ktorym w kazdym wierszu sa liczby rozdzielone spacja.
+np:
+1 2 3 4
+10 20 30 40 50 70
+1 3 2 55 4 3 222 4 6 7
+itp
+dla kazdej linii nalezy stworzyc raport w postaci:
+- okreslic monotonicznosc ciagu
+- znalezc mina, maxa w ciagu
+- znalezc najpopularniejsza liczbe z ciagu
+- stwierdzic czy miedzy min i max znajduja sie wszystkie mozliwe liczby naturalne.
